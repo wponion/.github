@@ -27,47 +27,6 @@ firstPRMergeComment: >
 
 # It is recommend to include as many gifs and emojis as possible
 
-# Configuration for probot-no-response - https://github.com/probot/no-response
-
-# Number of days of inactivity before an Issue is closed for lack of response
-daysUntilClose: 14
-# Label requiring a response
-responseRequiredLabel: more-information-needed
-# Comment to post when closing an Issue for lack of response. Set to `false` to disable
-closeComment: >
-  This issue has been automatically closed because there has been no response
-  to our request for more information from the original author. With only the
-  information that is currently in the issue, we don't have enough information
-  to take action. Please reach out if you have or find the answers we need so
-  that we can investigate further.
-
-# Set to true to add reviewers to pull requests
-addReviewers: true
-
-# Set to true to add assignees to pull requests
-addAssignees: true
-
-# A list of reviewers to be added to pull requests (GitHub user name)
-reviewers:
-  - varunsridharan
-
-# A number of reviewers added to the pull request
-# Set 0 to add all the reviewers (default: 0)
-numberOfReviewers: 0
-
-# A list of assignees, overrides reviewers if set
-assignees:
-  - varunsridharan
-
-# A number of assignees to add to the pull request
-# Set to 0 to add all of the assignees.
-# Uses numberOfReviewers if unset.
-# numberOfAssignees: 2
-
-# A list of keywords to be skipped the process that add reviewers if pull requests include it
-skipKeywords:
-  - wip
-
 # Comment to a new issue.
 issueOpened: >
   Thank your for raising a issue. We will try and get back to you as soon as possible.
